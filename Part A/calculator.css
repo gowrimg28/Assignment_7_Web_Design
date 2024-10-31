@@ -13,8 +13,8 @@ body {
   }
   
   .card {
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
+    background-color: #b27272;
+    border: 1px solid #6a1e1e;
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
@@ -39,7 +39,7 @@ body {
   }
   
   .result-card {
-    background-color: #e0e0e0;
+    background-color: #be7d7d;
     border: 1px solid #ab5a5a;
     border-radius: 5px;
     padding: 20px;
@@ -68,6 +68,8 @@ body {
     font-size: 18px;
     margin: 5px;
     padding: 10px 20px;
+    background-color: #b3783d;
+    font-weight: bold;
   }
   
   #main-label {

@@ -1,7 +1,7 @@
 const username = localStorage.getItem("username");
 
 if (username) {
-  $("#main-label").text(`Simple Calculator - Welcome, ${username}`);
+  $("#main-label").text(`Simple Calculator - Hello, ${username}`);
 }
 
 const isValidNum = (value) => {
