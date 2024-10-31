@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+  }
+  
+  .container {
+    background-color: #c0a5a5;
+    border: 1px solid #d28a8a;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 400px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    display: inline-block;
+    width: 60%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+    display: none;
+  }
+  
+  #login-button {
+    background-color: #b04148;
+    color: rgb(27, 10, 10);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #login-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #error-message {
+    color: red;
+  }
